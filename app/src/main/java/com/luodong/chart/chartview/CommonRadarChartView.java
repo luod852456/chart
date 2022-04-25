@@ -18,6 +18,7 @@ import com.github.mikephil.charting.data.RadarEntry;
 import com.github.mikephil.charting.formatter.ValueFormatter;
 import com.luodong.chart.R;
 import com.luodong.chart.SAppView;
+import com.luodong.chart.chartview.bean.ChartModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +30,7 @@ import static com.github.mikephil.charting.animation.Easing.EaseInOutQuart;
  * Created by luodong on 2022/4/22.
  */
 
-public class RadarChartForCommon extends SAppView {
+public class CommonRadarChartView extends SAppView {
 
     private RadarChart radar;
     private List<ChartModel> datalist;
@@ -37,12 +38,12 @@ public class RadarChartForCommon extends SAppView {
 
     private List<String> timeList = new ArrayList<>(); //存储x轴的时间
 
-    public RadarChartForCommon(Context context) {
+    public CommonRadarChartView(Context context) {
         super(context);
         init();
     }
 
-    public RadarChartForCommon(Context context, @Nullable AttributeSet attrs) {
+    public CommonRadarChartView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init();
     }

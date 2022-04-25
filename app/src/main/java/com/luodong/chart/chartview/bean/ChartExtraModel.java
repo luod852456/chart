@@ -1,4 +1,4 @@
-package com.luodong.chart.chartview;
+package com.luodong.chart.chartview.bean;
 
 public class ChartExtraModel {
     private String title;

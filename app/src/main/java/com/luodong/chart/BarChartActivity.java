@@ -6,8 +6,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.luodong.chart.chartview.BarChartForCommon;
-import com.luodong.chart.chartview.ChartModel;
+import com.luodong.chart.chartview.CommonBarChartView;
+import com.luodong.chart.chartview.bean.ChartModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,7 @@ public class BarChartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bar_chart);
 
-        BarChartForCommon bar_chart = findViewById(R.id.bar_chart);
+        CommonBarChartView bar_chart = findViewById(R.id.bar_chart);
 
         List<ChartModel> data = new ArrayList<>();
         data.add(new ChartModel("L1", 1));

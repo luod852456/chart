@@ -3,7 +3,6 @@ package com.luodong.chart.chartview;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
@@ -18,7 +17,8 @@ import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.formatter.ValueFormatter;
 import com.luodong.chart.R;
 import com.luodong.chart.SAppView;
-import com.luodong.chart.SStringUtil;
+import com.luodong.chart.chartview.bean.ChartModel;
+import com.luodong.chart.chartview.marker.CommonMarkerView;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -30,7 +30,7 @@ import static com.github.mikephil.charting.animation.Easing.EaseInOutQuart;
  * Created by luodong on 2020/7/24.
  */
 
-public class LineChartForCommon extends SAppView {
+public class CommonLineChartView extends SAppView {
 
     private LineChart lineChart;
     private List<ChartModel> datalist;
@@ -43,12 +43,12 @@ public class LineChartForCommon extends SAppView {
     private LineDataSet lineDataSet;
     private List<String> timeList = new ArrayList<>(); //存储x轴的时间
 
-    public LineChartForCommon(Context context) {
+    public CommonLineChartView(Context context) {
         super(context);
         init();
     }
 
-    public LineChartForCommon(Context context, @Nullable AttributeSet attrs) {
+    public CommonLineChartView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init();
     }

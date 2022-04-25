@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.luodong.chart.chartview.BarChartForCommon
+    <com.luodong.chart.chartview.CommonBarChartView
         android:id="@+id/bar_chart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

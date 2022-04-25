@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.luodong.chart.chartview.RadarChartForCommon
+    <com.luodong.chart.chartview.CommonRadarChartView
         android:id="@+id/radar_chart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

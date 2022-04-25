@@ -17,6 +17,9 @@ import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.formatter.ValueFormatter;
 import com.luodong.chart.R;
 import com.luodong.chart.SAppView;
+import com.luodong.chart.chartview.bean.ChartExtraModel;
+import com.luodong.chart.chartview.bean.ChartModel;
+import com.luodong.chart.chartview.marker.BarMarkerView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +31,7 @@ import static com.github.mikephil.charting.animation.Easing.EaseInOutQuart;
  * Created by luodong on 2020/7/24.
  */
 
-public class BarChartForCommon extends SAppView {
+public class CommonBarChartView extends SAppView {
 
     private BarChart barChart;
     private YAxis leftAxis;             //左侧Y轴
@@ -40,12 +43,12 @@ public class BarChartForCommon extends SAppView {
     private BarDataSet barDataSet;
     private List<String> timeList = new ArrayList<>(); //存储x轴的时间
 
-    public BarChartForCommon(Context context) {
+    public CommonBarChartView(Context context) {
         super(context);
         init();
     }
 
-    public BarChartForCommon(Context context, @Nullable AttributeSet attrs) {
+    public CommonBarChartView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init();
     }

@@ -6,8 +6,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.luodong.chart.chartview.ChartModel;
-import com.luodong.chart.chartview.LineChartForCommon;
+import com.luodong.chart.chartview.bean.ChartModel;
+import com.luodong.chart.chartview.CommonLineChartView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,7 +25,7 @@ public class LineChartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_line_chart);
 
 
-        LineChartForCommon lineChart = findViewById(R.id.line_chart);
+        CommonLineChartView lineChart = findViewById(R.id.line_chart);
 
         List<ChartModel> data = new ArrayList<>();
         data.add(new ChartModel("1-1", 8.8f));

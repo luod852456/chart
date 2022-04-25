@@ -1,4 +1,4 @@
-package com.luodong.chart.chartview;
+package com.luodong.chart.chartview.marker;
 
 import android.content.Context;
 import android.widget.TextView;
@@ -9,17 +9,19 @@ import com.github.mikephil.charting.formatter.ValueFormatter;
 import com.github.mikephil.charting.highlight.Highlight;
 import com.github.mikephil.charting.utils.MPPointF;
 import com.luodong.chart.R;
+import com.luodong.chart.SStringUtil;
+import com.luodong.chart.chartview.bean.ChartExtraModel;
 
 import java.text.DecimalFormat;
 
-public class CommonMarkerView extends MarkerView {
+public class BarMarkerView extends MarkerView {
 
     private TextView tvDate;
     private ValueFormatter xAxisValueFormatter;
     DecimalFormat df = new DecimalFormat("0.0");
 
-    public CommonMarkerView(Context context, ValueFormatter xAxisValueFormatter) {
-        super(context, R.layout.view_common_marker);
+    public BarMarkerView(Context context, ValueFormatter xAxisValueFormatter) {
+        super(context, R.layout.view_bar_marker);
 
         this.xAxisValueFormatter = xAxisValueFormatter;
         tvDate = findViewById(R.id.tvDate);
@@ -28,7 +30,13 @@ public class CommonMarkerView extends MarkerView {
     //回调函数每次MarkerView重绘,可以用来更新内容(用户界面)
     @Override
     public void refreshContent(Entry e, Highlight highlight) {
-        tvDate.setText(df.format(e.getY()));
+        if (e.getData() instanceof ChartExtraModel) {
+            ChartExtraModel m = (ChartExtraModel) e.getData();
+            //运动能力
+            tvDate.setText(SStringUtil.append(m.getTitle(), m.getUnit()));
+        } else {
+            tvDate.setText(df.format(e.getY()));
+        }
         super.refreshContent(e, highlight);
     }
 

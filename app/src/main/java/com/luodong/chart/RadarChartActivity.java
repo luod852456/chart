@@ -6,8 +6,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.luodong.chart.chartview.ChartModel;
-import com.luodong.chart.chartview.RadarChartForCommon;
+import com.luodong.chart.chartview.bean.ChartModel;
+import com.luodong.chart.chartview.CommonRadarChartView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,7 @@ public class RadarChartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_radar_chart);
 
-        RadarChartForCommon radar_chart = findViewById(R.id.radar_chart);
+        CommonRadarChartView radar_chart = findViewById(R.id.radar_chart);
 
         List<ChartModel> data = new ArrayList<>();
         data.add(new ChartModel("A能力", 5));
