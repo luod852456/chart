@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="color_E9F2FF">#E9F2FF</color>
+    <color name="color_3390FF">#3390FF</color>
+    <color name="theme_backgroud">#FFfdb928</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_993896FF">#993896FF</color>
+    <color name="color_B5D3FF">#B5D3FF</color>
+
+
+
+    <!-- ————————————————————新视觉(start)———————————————————— -->
+    <!--选中tab栏、标签、主要按钮-->
+    <color name="sd_color_button">#FFDE00</color>
+
+    <!--金额文字、强调文字、标签-->
+    <color name="sd_color_emphasize">#FF6E00</color>
+
+    <!--链接文字、标签-->
+    <color name="sd_color_link">#7C4EEF</color>
+
+    <!--标签-->
+    <color name="sd_color_label">#267DFF</color>
+
+    <!--标题文字、正文文字-->
+    <color name="sd_color_title">#242831</color>
+
+    <!--副标题、正文文字、次要按钮、箭头-->
+    <color name="sd_color_subtitle">#3C454E</color>
+
+    <!--正文字体、辅助文字、未选中文字-->
+    <color name="sd_color_text">#6C727A</color>
+
+    <!--辅助文字、注释性文字-->
+    <color name="sd_color_auxiliary">#9AA1A9</color>
+
+    <!--不可点击性文字、箭头-->
+    <color name="sd_color_arrow">#BBBBBB</color>
+
+    <!--不可点击按钮状态-->
+    <color name="sd_color_unable">#DDDDDD</color>
+
+    <!--分割线、未启用背景色-->
+    <color name="sd_color_line">#EEEEEE</color>
+
+    <!--未选中tan栏、提示标签-->
+    <color name="sd_color_tab">#F5F5F5</color>
+
+    <!--页面背景-->
+    <color name="sd_color_background">#F9FAFB</color>
+
+    <!--深色背景上的文字-->
+    <color name="sd_color_white">#FFFFFF</color>
+
+    <color name="sd_color_black">#000000</color>
+
+    <!--报错或警示颜色-->
+    <color name="sd_color_warning">#ED5C42</color>
+
+    <!--正确或完成颜色-->
+    <color name="sd_color_complete">#31CC43</color>
+
+    <!--状态栏颜色-->
+    <color name="sd_color_statusbar">#FFFFFF</color>
+
+    <color name="sd_color_transparent">#00000000</color>
+
+    <color name="sd_color_toast">#b2000000</color>
+
+    <!-- ————————————————————新视觉(end)———————————————————— -->
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">chart</string>
+    <string name="athletic_ability_level_">运动能力等级：</string>
+    <string name="string_fen">分</string>
+</resources>

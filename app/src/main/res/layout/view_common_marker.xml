@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/px10dp"
+        android:background="@mipmap/bg_chart_tip"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/px18dp"
+        android:paddingTop="@dimen/px18dp"
+        android:paddingRight="@dimen/px18dp"
+        android:paddingBottom="@dimen/px26dp">
+
+        <TextView
+            android:id="@+id/tvDate"
+            style="@style/sd_style_text_28px_dark"
+            android:textColor="@color/sd_color_tab" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

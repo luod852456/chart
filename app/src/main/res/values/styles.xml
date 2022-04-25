@@ -1,0 +1,784 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- ————————————————————新视觉(start)———————————————————— -->
+
+    <!--—————————text_base—————————-->
+    <style name="sd_style_text_base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!--—————————字号（start）—————————-->
+    <!--全部中文字符-->
+    <style name="sd_style_text_48px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px48dp</item>
+    </style>
+
+    <style name="sd_style_text_44px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px44dp</item>
+    </style>
+
+    <!--全部中文字符-->
+    <style name="sd_style_text_40px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px40dp</item>
+    </style>
+
+    <!--大尺寸图片的大标题-->
+    <style name="sd_style_text_38px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px38dp</item>
+    </style>
+
+    <!--大尺寸图片的大标题-->
+    <style name="sd_style_text_36px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px36dp</item>
+    </style>
+
+    <!--大尺寸图片的大标题-->
+    <style name="sd_style_text_34px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px34dp</item>
+    </style>
+
+    <!--list标题、卡片标题、大型按钮类操作文字-->
+    <style name="sd_style_text_32px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px32dp</item>
+    </style>
+
+    <!--正文文本、按钮类操作文字-->
+    <style name="sd_style_text_30px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px30dp</item>
+    </style>
+
+    <!--正文文本、按钮类操作文字-->
+    <style name="sd_style_text_28px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px28dp</item>
+    </style>
+
+    <!--讯息或小titel、小型按钮类操作文字-->
+    <style name="sd_style_text_26px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px26dp</item>
+    </style>
+
+    <!--讯息或小titel、小型按钮类操作文字-->
+    <style name="sd_style_text_24px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px24dp</item>
+    </style>
+
+    <!--辅助信息、注释性信息-->
+    <style name="sd_style_text_22px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px22dp</item>
+    </style>
+
+    <!--备注信息等-->
+    <style name="sd_style_text_20px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px20dp</item>
+    </style>
+
+    <!--备注信息等-->
+    <style name="sd_style_text_16px" parent="sd_style_text_base">
+        <item name="android:textSize">@dimen/px16dp</item>
+    </style>
+    <!--—————————字号（end）—————————-->
+
+    <!--—————————48px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_48px_theme" parent="sd_style_text_48px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_48px_emphasize" parent="sd_style_text_48px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_48px_dark" parent="sd_style_text_48px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_48px_3" parent="sd_style_text_48px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_48px_6" parent="sd_style_text_48px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_48px_9" parent="sd_style_text_48px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_48px_light" parent="sd_style_text_48px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_48px_white" parent="sd_style_text_48px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_48px_warning" parent="sd_style_text_48px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_48px_complete" parent="sd_style_text_48px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————44px颜色（end）—————————-->
+
+    <!--—————————44px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_44px_theme" parent="sd_style_text_44px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_44px_emphasize" parent="sd_style_text_44px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_44px_dark" parent="sd_style_text_44px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_44px_3" parent="sd_style_text_44px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_44px_6" parent="sd_style_text_44px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_44px_9" parent="sd_style_text_44px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_44px_light" parent="sd_style_text_44px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_44px_white" parent="sd_style_text_44px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_44px_warning" parent="sd_style_text_44px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_44px_complete" parent="sd_style_text_44px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————44px颜色（end）—————————-->
+
+    <!--—————————40px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_40px_theme" parent="sd_style_text_40px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_40px_emphasize" parent="sd_style_text_40px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_40px_dark" parent="sd_style_text_40px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_40px_3" parent="sd_style_text_40px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_40px_6" parent="sd_style_text_40px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_40px_9" parent="sd_style_text_40px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_40px_light" parent="sd_style_text_40px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_40px_white" parent="sd_style_text_40px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_40px_warning" parent="sd_style_text_40px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_40px_complete" parent="sd_style_text_40px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————40px颜色（end）—————————-->
+
+    <!--—————————38px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_38px_theme" parent="sd_style_text_38px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_38px_emphasize" parent="sd_style_text_38px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_38px_dark" parent="sd_style_text_38px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_38px_3" parent="sd_style_text_38px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_38px_6" parent="sd_style_text_38px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_38px_9" parent="sd_style_text_38px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_38px_light" parent="sd_style_text_38px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_38px_white" parent="sd_style_text_38px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_38px_warning" parent="sd_style_text_38px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_38px_complete" parent="sd_style_text_38px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————38px颜色（end）—————————-->
+
+    <!--—————————34px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_34px_theme" parent="sd_style_text_34px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_34px_emphasize" parent="sd_style_text_34px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_34px_dark" parent="sd_style_text_34px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_34px_3" parent="sd_style_text_34px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_34px_6" parent="sd_style_text_34px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_34px_9" parent="sd_style_text_34px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_34px_light" parent="sd_style_text_34px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_34px_white" parent="sd_style_text_34px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_34px_warning" parent="sd_style_text_34px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_34px_complete" parent="sd_style_text_34px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————34px颜色（end）—————————-->
+
+    <!--—————————36px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_36px_theme" parent="sd_style_text_36px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_36px_emphasize" parent="sd_style_text_36px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_36px_dark" parent="sd_style_text_36px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_36px_3" parent="sd_style_text_36px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_36px_6" parent="sd_style_text_36px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_36px_9" parent="sd_style_text_36px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_36px_light" parent="sd_style_text_36px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_36px_white" parent="sd_style_text_36px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_36px_warning" parent="sd_style_text_36px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_36px_complete" parent="sd_style_text_36px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————36px颜色（end）—————————-->
+
+    <!--—————————32px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_32px_theme" parent="sd_style_text_32px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_32px_emphasize" parent="sd_style_text_32px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_32px_dark" parent="sd_style_text_32px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_32px_3" parent="sd_style_text_32px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_32px_6" parent="sd_style_text_32px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_32px_9" parent="sd_style_text_32px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_32px_light" parent="sd_style_text_32px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_32px_white" parent="sd_style_text_32px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_32px_warning" parent="sd_style_text_32px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_32px_complete" parent="sd_style_text_32px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————32px颜色（end）—————————-->
+
+    <!--—————————30px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_30px_theme" parent="sd_style_text_30px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_30px_emphasize" parent="sd_style_text_30px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_30px_dark" parent="sd_style_text_30px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_30px_3" parent="sd_style_text_30px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_30px_6" parent="sd_style_text_30px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_30px_9" parent="sd_style_text_30px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_30px_light" parent="sd_style_text_30px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_30px_white" parent="sd_style_text_30px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_30px_warning" parent="sd_style_text_30px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_30px_complete" parent="sd_style_text_30px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————30px颜色（end）—————————-->
+
+    <!--—————————28px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_28px_theme" parent="sd_style_text_28px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_28px_emphasize" parent="sd_style_text_28px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_28px_dark" parent="sd_style_text_28px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_28px_3" parent="sd_style_text_28px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_28px_6" parent="sd_style_text_28px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_28px_9" parent="sd_style_text_28px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_28px_light" parent="sd_style_text_28px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_28px_white" parent="sd_style_text_28px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_28px_warning" parent="sd_style_text_28px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_28px_complete" parent="sd_style_text_28px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————28px颜色（end）—————————-->
+
+    <!--—————————26px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_26px_theme" parent="sd_style_text_26px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_26px_emphasize" parent="sd_style_text_26px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_26px_dark" parent="sd_style_text_26px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_26px_3" parent="sd_style_text_26px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_26px_6" parent="sd_style_text_26px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_26px_9" parent="sd_style_text_26px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_26px_light" parent="sd_style_text_26px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_26px_white" parent="sd_style_text_26px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_26px_warning" parent="sd_style_text_26px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_26px_complete" parent="sd_style_text_26px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————26px颜色（end）—————————-->
+
+
+    <!--—————————24px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_24px_theme" parent="sd_style_text_24px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_24px_emphasize" parent="sd_style_text_24px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_24px_dark" parent="sd_style_text_24px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_24px_3" parent="sd_style_text_24px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_24px_6" parent="sd_style_text_24px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_24px_9" parent="sd_style_text_24px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_24px_light" parent="sd_style_text_24px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_24px_white" parent="sd_style_text_24px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_24px_warning" parent="sd_style_text_24px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_24px_complete" parent="sd_style_text_24px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————24px颜色（end）—————————-->
+
+    <!--—————————22px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_22px_theme" parent="sd_style_text_22px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_22px_emphasize" parent="sd_style_text_22px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_22px_dark" parent="sd_style_text_22px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_22px_3" parent="sd_style_text_22px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_22px_6" parent="sd_style_text_22px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_22px_9" parent="sd_style_text_22px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_22px_light" parent="sd_style_text_22px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_22px_white" parent="sd_style_text_22px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_22px_warning" parent="sd_style_text_22px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_22px_complete" parent="sd_style_text_22px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————22px颜色（end）—————————-->
+
+    <!--—————————20px颜色（start）—————————-->
+    <!--主题-->
+    <style name="sd_style_text_20px_theme" parent="sd_style_text_20px">
+        <item name="android:textColor">@color/sd_color_button</item>
+    </style>
+
+    <!--强调-->
+    <style name="sd_style_text_20px_emphasize" parent="sd_style_text_20px">
+        <item name="android:textColor">@color/sd_color_emphasize</item>
+    </style>
+
+    <!--暗-->
+    <style name="sd_style_text_20px_dark" parent="sd_style_text_20px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--3-->
+    <style name="sd_style_text_20px_3" parent="sd_style_text_20px">
+        <item name="android:textColor">@color/sd_color_subtitle</item>
+    </style>
+
+    <!--6-->
+    <style name="sd_style_text_20px_6" parent="sd_style_text_20px">
+        <item name="android:textColor">@color/sd_color_text</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_20px_9" parent="sd_style_text_20px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+
+    <!--亮-->
+    <style name="sd_style_text_20px_light" parent="sd_style_text_20px">
+        <item name="android:textColor">@color/sd_color_arrow</item>
+    </style>
+
+    <!--白-->
+    <style name="sd_style_text_20px_white" parent="sd_style_text_20px">
+        <item name="android:textColor">@color/sd_color_white</item>
+    </style>
+
+    <!--警告-->
+    <style name="sd_style_text_20px_warning" parent="sd_style_text_20px">
+        <item name="android:textColor">@color/sd_color_warning</item>
+    </style>
+
+    <!--完成-->
+    <style name="sd_style_text_20px_complete" parent="sd_style_text_20px">
+        <item name="android:textColor">@color/sd_color_complete</item>
+    </style>
+    <!--—————————20px颜色（end）—————————-->
+    <!--—————————16px颜色（start）—————————-->
+
+    <!--暗-->
+    <style name="sd_style_text_16px_dark" parent="sd_style_text_16px">
+        <item name="android:textColor">@color/sd_color_title</item>
+    </style>
+
+    <!--9-->
+    <style name="sd_style_text_16px_9" parent="sd_style_text_16px">
+        <item name="android:textColor">@color/sd_color_auxiliary</item>
+    </style>
+    <!--—————————20px颜色（end）—————————-->
+
+    <!-- ————————————————————新视觉(end)———————————————————— -->
+
+
+</resources>

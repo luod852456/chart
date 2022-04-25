@@ -1,0 +1,11 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <com.github.mikephil.charting.charts.RadarChart
+        android:id="@+id/v_radar_chart"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+</FrameLayout>
